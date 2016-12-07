@@ -1,9 +1,7 @@
 Articulo = require('./Articulo');
 
 //Static Class Manejador Blog
-module.exports = {
-  
-  db: null,  
+module.exports = { 
   posts: [],
   getAll: function(){
     return this.posts;

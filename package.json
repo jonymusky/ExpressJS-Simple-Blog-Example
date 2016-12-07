@@ -8,10 +8,17 @@
     "client",
     "browser"
   ],
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha"
+  },
   "author": "jonymusky",
   "contributors": [],
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
