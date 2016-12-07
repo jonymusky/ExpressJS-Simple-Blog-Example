@@ -20,7 +20,7 @@ describe('ManejadorBlog', function() {
   });
   
   describe('#getLastId()', function() {
-    it('should add without error', function(done) {
+    it('should return last id', function(done) {
       if(manejadorBlog.getLastId() == 1){
           done();
       }else{
